@@ -1,7 +1,10 @@
+import Canvas from "../../components/Canvas";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">🚀 Hello Hackathon Team!</h1>
-    </main>
+    <div className="p-8">
+      <h1 className="text-2xl font-bold mb-4">AI Builder Canvas</h1>
+      <Canvas />
+    </div>
   );
 }
